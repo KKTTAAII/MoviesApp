@@ -10,6 +10,7 @@ $("form").on("submit", function(evt){
             $("li:last").append(deleteBtn);
     }
     //credit: https://stackoverflow.com/questions/66646093/jquery-add-button-once-to-list-items
+    
     $("#moviesList").on("click", "li", function(){
         $(this).closest("li").remove();
     })

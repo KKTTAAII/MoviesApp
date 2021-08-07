@@ -1,12 +1,12 @@
 .deleteBtn {
     margin-left: 10px;
-    background-color: lightgrey;
+    background-color: rgb(240, 232, 232);
     border-style: solid;
     border-radius: 5px;
 }
 
 #submitBtn {
-    background-color: lightgrey;
+    background-color: rgb(240, 232, 232);
     border-style: solid;
     border-radius: 5px;
     margin-top: 10px;
