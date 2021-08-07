@@ -1,0 +1,31 @@
+.deleteBtn {
+    margin-left: 10px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#submitBtn {
+    background-color: lightgrey;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.inputBox {
+    margin-top: 10px;
+}
+
+.font {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#container {
+    background-image: url("https://www.publicdomainpictures.net/pictures/30000/velka/film-background-1334067869u9d.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

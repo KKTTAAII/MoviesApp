@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MoviesApp.css">
+    <title>Movies App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body id="container">
+    <h1 class="font">Movies App</h1>
+    <form>
+        <h2 class="font">Rate your favortie Movies!</h2>
+        <label class="font">Title:</label>
+        <input type="text" name="title" minlength="2" required class="font inputBox">
+        <br>
+        <label class="font">Rating:</label>
+        <input type="number" name="rating" min=0 max=10 required class="font inputBox">
+        <br>
+        <button id="submitBtn" class="font">Submit</button>
+    </form>
+    <ul id="moviesList">
+
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="MoviesApp.js"></script>
+</body>
+</html>
